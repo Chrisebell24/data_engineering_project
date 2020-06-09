@@ -2,16 +2,16 @@ import os
 import sys
 import argparse
 
-fp = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-sys.path.insert(0, fp)
+#fp = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+#sys.path.insert(0, fp)
 
 from time import sleep
 import pandas as pd
 import datetime as dt
 
-from util.selenium_util import get_driver, selenium_wait
+from _selenium_util import get_driver, selenium_wait
 from selenium import webdriver
-from util.sql_util import connect_to_default, to_sql
+from _sql_util import connect_to_default, to_sql
 
 def get_finished_list(engine):
     try:
