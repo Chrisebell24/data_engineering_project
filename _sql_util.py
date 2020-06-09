@@ -6,14 +6,7 @@ from sqlite3 import Error, Warning, OperationalError
 
 from sqlalchemy import create_engine
 import pandas as pd
-
-SQLDEFAULT = {
-    'host': 'localhost',
-    'port': 3306,
-    'username': 'username',
-    'password': 'password',
-    'database': 'tiger',
-}
+from _config import *
 
 def combine_old_and_new(data, current_img):
     
