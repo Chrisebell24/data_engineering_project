@@ -8,6 +8,16 @@ git clone https://github.com/Chrisebell24/data_engineering_project.git
 pip install dash --user
 pip install sqlalchemy --user
 cd data_engineering_project
+```
+IN MYSQL
+create database tiger
+
+OPTION 1:
+create user username with password
+
+OPTION 2:
+change username and password in _sql_util.py
+```
 python _dash_routine_gui.py
 ```
 ### exch_nyse.py 
