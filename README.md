@@ -3,7 +3,7 @@ Data Engineering Project Stock Data Analysis
 
 
 ### To start you should open the GUI to run the data. Set each script to True in http://localhost:2001 then click run_all button
-$ python _run_dash_gui.py
+$ python _dash_routine_gui.py
 
 ### exch_nyse.py 
 uses FTP from the New York Stock Exchange to get a list of symbols. Updates active = 1 or active = 0
