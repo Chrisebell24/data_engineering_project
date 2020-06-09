@@ -2,7 +2,7 @@ import os
 import sys
 import pandas as pd
 from argparse import ArgumentParser
-fp = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+#fp = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 sys.path.insert(0, fp)
 from dash import Dash
@@ -14,7 +14,7 @@ from dash.dependencies import Output, Input, State
 from flask import Flask
 import plotly.graph_objs as go
 
-from tiger import get_price, get_tickers, get_fred_labels, get_fred_data, get_dividends
+from _tiger import get_price, get_tickers, get_fred_labels, get_fred_data, get_dividends
 
 server = Flask(__name__)
 app = Dash(
