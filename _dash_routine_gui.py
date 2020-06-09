@@ -11,11 +11,11 @@ from dash.dependencies import Output, Input, State
 import dash_html_components as html
 
 
-fp = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-fp = os.path.join(fp, 'util')
-sys.path.insert(0, fp)
+#fp = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+#fp = os.path.join(fp, 'util')
+#sys.path.insert(0, fp)
 
-from sql_util import connect_to_default
+from _sql_util import connect_to_default
 
 global con
 con = connect_to_default('tiger')
