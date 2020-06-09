@@ -7,6 +7,7 @@ Data Engineering Project Stock Data Analysis
 git clone https://github.com/Chrisebell24/data_engineering_project.git
 pip install dash --user
 pip install sqlalchemy --user
+cd data_engineering_project
 python _dash_routine_gui.py
 ```
 ### exch_nyse.py 
