@@ -12,7 +12,7 @@ SQLDEFAULT = {
     'port': 3306,
     'username': 'username',
     'password': 'password',
-    'database': 'database',
+    'database': 'tiger',
 }
 
 def combine_old_and_new(data, current_img):
