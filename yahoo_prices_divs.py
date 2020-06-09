@@ -1,14 +1,14 @@
 import os
 import sys
 
-fp = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+#fp = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-sys.path.insert(0, os.path.join(fp, 'data_capture', 'yhoo'))
-sys.path.insert(0, os.path.join(fp, 'util'))
+#sys.path.insert(0, os.path.join(fp, 'data_capture', 'yhoo'))
+#sys.path.insert(0, os.path.join(fp, 'util'))
 
-from sql_util import connect_to_default, to_sql
+from _sql_util import connect_to_default, to_sql
 
-from yfin_download import download
+from _yfin_download import download
 
 import pandas as pd
 import datetime as dt
