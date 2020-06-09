@@ -2,10 +2,10 @@ import pandas as pd
 import os
 import sys
 
-fp = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-sys.path.insert(0,fp)
+#fp = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+#sys.path.insert(0,fp)
 
-from util.sql_util import connect_to_default
+from sql_util import connect_to_default
 
 def update_exch(df, tbl, ticker_col=None):    
     
