@@ -14,7 +14,7 @@ from dash.dependencies import Output, Input, State
 from flask import Flask
 import plotly.graph_objs as go
 
-from data.tiger import get_price, get_tickers, get_fred_labels, get_fred_data, get_dividends
+from tiger import get_price, get_tickers, get_fred_labels, get_fred_data, get_dividends
 
 server = Flask(__name__)
 app = Dash(
