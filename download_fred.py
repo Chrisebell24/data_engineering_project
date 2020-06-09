@@ -5,10 +5,10 @@ import sys
 import pandas as pd
 from fredapi import Fred
 
-fp = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-fp = os.path.join(fp, 'util')
-sys.path.insert(0, fp)
-from sql_util import connect_to_default
+#fp = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+#fp = os.path.join(fp, 'util')
+#sys.path.insert(0, fp)
+from _sql_util import connect_to_default
 
 def update_fred():
     
