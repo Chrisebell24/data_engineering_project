@@ -10,13 +10,10 @@ pip install sqlalchemy --user
 cd data_engineering_project
 ```
 IN MYSQL
-create database tiger
+create schema tiger;
 
-OPTION 1:
-create user username with password
-
-OPTION 2:
-change username and password in _sql_util.py
+IN _config.py
+change username and password in _config.py
 ```
 python _dash_routine_gui.py
 ```
