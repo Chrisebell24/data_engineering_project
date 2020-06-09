@@ -17,6 +17,11 @@ change username and password in _config.py
 ```
 python _dash_routine_gui.py
 ```
+
+SEE _routines.png picture
+Change in table entry to True for each script
+Run All Button
+
 ### exch_nyse.py 
 uses FTP from the New York Stock Exchange to get a list of symbols. Updates active = 1 or active = 0
 
